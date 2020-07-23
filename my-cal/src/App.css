@@ -16,11 +16,47 @@ input
   padding: 15px;
   margin-left: 100px;
   left: 100px;
-  color: rgb(253, 10, 10);
+  color: rgb(20, 3, 3);
   background-color: rgb(144, 142, 146);
-  box-sizing: border-box
+  box-sizing: border-box;
+  border: 4px solid #ebf3ec;
 }
 .inp
 {
   margin-left: 300px;
 }
+button
+{
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  left: 300px;
+  margin-left: 565px;
+  background-color: cadetblue;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
