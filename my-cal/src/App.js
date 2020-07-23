@@ -4,11 +4,11 @@ import './App.css';
 function App() {
   const [number1,setNumber1] =useState(0);
   const [number2,setNumber2] =useState(0);
-  const [Total,setTotal] =useState(number2+number1);
+  const [Total,setTotal] =useState(number1 + number2);
   
   function add()
   {
-    setTotal(number1+number2)
+    setTotal(number1+number2);
   }
 
 
@@ -32,7 +32,7 @@ function App() {
   </div>
   <br></br>
     <button onClick={add}>Add Them</button>   
-    <h1>{add}</h1> 
+    <h2>{Total}</h2> 
     </div>
   );
 }
